@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_61d6b47beed8f07f9cef3d627e0b5484 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_61d6b47beed8f07f9cef3d627e0b5484" ></div>
+        
+</body>
+<script>    
+    
+            var map_61d6b47beed8f07f9cef3d627e0b5484 = L.map(
+                "map_61d6b47beed8f07f9cef3d627e0b5484",
+                {
+                    center: [40.284, -76.649],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_3ab9d876c7821092dd54945e8bfe9a6e = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_61d6b47beed8f07f9cef3d627e0b5484);
+        
+    
+            var marker_601133302cf5f01c056344f2fd3f9ff0 = L.marker(
+                [40.3, -76.659],
+                {}
+            ).addTo(map_61d6b47beed8f07f9cef3d627e0b5484);
+        
+    
+        var popup_6ae12f76b551bd39e25636d3182574f3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_18cdd928796d35bb34a17ac0e1589b51 = $(`<div id="html_18cdd928796d35bb34a17ac0e1589b51" style="width: 100.0%; height: 100.0%;">Hershey Hotel</div>`)[0];
+            popup_6ae12f76b551bd39e25636d3182574f3.setContent(html_18cdd928796d35bb34a17ac0e1589b51);
+        
+
+        marker_601133302cf5f01c056344f2fd3f9ff0.bindPopup(popup_6ae12f76b551bd39e25636d3182574f3)
+        ;
+
+        
+    
+    
+            var marker_2f3712418624038ea60a2b8bba3575be = L.marker(
+                [40.288, -76.654],
+                {}
+            ).addTo(map_61d6b47beed8f07f9cef3d627e0b5484);
+        
+    
+        var popup_415d6ce432e02154cb3886f4650819be = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a8ce20ffd7a597a16358ac786464b3d0 = $(`<div id="html_a8ce20ffd7a597a16358ac786464b3d0" style="width: 100.0%; height: 100.0%;">Hershey Park</div>`)[0];
+            popup_415d6ce432e02154cb3886f4650819be.setContent(html_a8ce20ffd7a597a16358ac786464b3d0);
+        
+
+        marker_2f3712418624038ea60a2b8bba3575be.bindPopup(popup_415d6ce432e02154cb3886f4650819be)
+        ;
+
+        
+    
+    
+            var marker_b6865b99efb814b986b4d06be71864d9 = L.marker(
+                [40.179, -76.179],
+                {}
+            ).addTo(map_61d6b47beed8f07f9cef3d627e0b5484);
+        
+    
+        var popup_5e5a67d1128ff87a25446c67593359d8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_70fb0e50d8c6ad0a40af7ccd9164b666 = $(`<div id="html_70fb0e50d8c6ad0a40af7ccd9164b666" style="width: 100.0%; height: 100.0%;">Comics and Paperback Plus</div>`)[0];
+            popup_5e5a67d1128ff87a25446c67593359d8.setContent(html_70fb0e50d8c6ad0a40af7ccd9164b666);
+        
+
+        marker_b6865b99efb814b986b4d06be71864d9.bindPopup(popup_5e5a67d1128ff87a25446c67593359d8)
+        ;
+
+        
+    
+    
+            var marker_8814c479b05f683b15dfa57d4adcc3d3 = L.marker(
+                [40.285, -76.65],
+                {}
+            ).addTo(map_61d6b47beed8f07f9cef3d627e0b5484);
+        
+    
+            var icon_2fc694773216602ef58dfa76543caf85 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_8814c479b05f683b15dfa57d4adcc3d3.setIcon(icon_2fc694773216602ef58dfa76543caf85);
+        
+    
+        var popup_ac46e4b82ad58d17c3170cc06ca8957c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7131348158888da90cbd34812e023970 = $(`<div id="html_7131348158888da90cbd34812e023970" style="width: 100.0%; height: 100.0%;">Hershey Factory</div>`)[0];
+            popup_ac46e4b82ad58d17c3170cc06ca8957c.setContent(html_7131348158888da90cbd34812e023970);
+        
+
+        marker_8814c479b05f683b15dfa57d4adcc3d3.bindPopup(popup_ac46e4b82ad58d17c3170cc06ca8957c)
+        ;
+
+        
+    
+</script>
